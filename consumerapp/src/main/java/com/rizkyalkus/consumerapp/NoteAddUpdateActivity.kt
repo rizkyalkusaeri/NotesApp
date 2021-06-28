@@ -1,4 +1,4 @@
-package com.rizkyalkus.mynotesapp
+package com.rizkyalkus.consumerapp
 
 import android.content.ContentValues
 import android.content.Intent
@@ -10,13 +10,12 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.rizkyalkus.mynotesapp.database.DatabaseContract
-import com.rizkyalkus.mynotesapp.database.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.rizkyalkus.mynotesapp.database.DatabaseContract.NoteColumns.Companion.DATE
-import com.rizkyalkus.mynotesapp.database.NoteHelper
-import com.rizkyalkus.mynotesapp.databinding.ActivityNoteAddUpdateBinding
-import com.rizkyalkus.mynotesapp.entity.Note
-import com.rizkyalkus.mynotesapp.helper.MappingHelper
+import com.rizkyalkus.consumerapp.database.DatabaseContract
+import com.rizkyalkus.consumerapp.database.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.rizkyalkus.consumerapp.database.DatabaseContract.NoteColumns.Companion.DATE
+import com.rizkyalkus.consumerapp.databinding.ActivityNoteAddUpdateBinding
+import com.rizkyalkus.consumerapp.entity.Note
+import com.rizkyalkus.consumerapp.helper.MappingHelper
 import java.text.SimpleDateFormat
 import java.util.*
 
